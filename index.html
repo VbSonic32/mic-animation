@@ -1,101 +1,120 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mic - Precision Audio Engineering</title>
-    <!-- Use specific unique fonts for high design aesthetic -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Outfit:wght@300;400;500;600&family=Space+Grotesk:wght@300;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="index.css">
-    
-    <!-- Meta details for SEO -->
-    <meta name="description" content="Discover the ultimate precision microphone. Explore its engineering layers with an interactive animation.">
-</head>
-<body>
-    <div id="loading-screen">
-        <div class="loader-text">INITIALIZING</div>
-        <div class="loader-bar">
-            <div class="loader-bar-fill" id="loader-fill"></div>
-        </div>
-    </div>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Mic - Precision Audio Engineering</title>
+		<link rel="shortcut icon" href="favicon.ico" type="logo.png" />
+		<!-- Use specific unique fonts for high design aesthetic -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Outfit:wght@300;400;500;600&family=Space+Grotesk:wght@300;500;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="index.css" />
 
-    <div class="progress-bar-container">
-        <div class="progress-bar" id="progress-bar"></div>
-    </div>
+		<!-- Meta details for SEO -->
+		<meta
+			name="description"
+			content="Discover the ultimate precision microphone. Explore its engineering layers with an interactive animation."
+		/>
+	</head>
+	<body>
+		<div id="loading-screen">
+			<div class="loader-text">INITIALIZING</div>
+			<div class="loader-bar">
+				<div class="loader-bar-fill" id="loader-fill"></div>
+			</div>
+		</div>
 
-    <header class="header">
-        <div class="logo">AURA EX-1</div>
-        <nav class="nav-links">
-            <a href="#overview">Overview</a>
-            <a href="#specs">Specs</a>
-            <a href="#preorder">Pre-Order</a>
-        </nav>
-    </header>
+		<div class="progress-bar-container">
+			<div class="progress-bar" id="progress-bar"></div>
+		</div>
 
-    <div class="canvas-container">
-        <canvas id="mic-canvas"></canvas>
-    </div>
+		<header class="header">
+			<div class="logo">AURA EX-1</div>
+			<nav class="nav-links">
+				<a href="#overview">Overview</a>
+				<a href="#specs">Specs</a>
+				<a href="#preorder">Pre-Order</a>
+			</nav>
+		</header>
 
-    <main class="content">
-        <section class="hero" id="overview">
-            <div class="hero-content">
-                <div class="kicker">PRECISION AUDIO ENGINEERING</div>
-                <h1>SOUND<br>UNBOUND.</h1>
-                <p>Every nuance, every frequency, perfectly captured. Scroll down to explore the layers of perfection.</p>
-            </div>
-            <div class="scroll-indicator">
-                <span>SCROLL TO DISASSEMBLE</span>
-                <div class="line"></div>
-            </div>
-        </section>
+		<div class="canvas-container">
+			<canvas id="mic-canvas"></canvas>
+		</div>
 
-        <!-- Spacer allows for more scrolling which advances the canvas animation -->
-        <section class="spacer"></section>
+		<main class="content">
+			<section class="hero" id="overview">
+				<div class="hero-content">
+					<div class="kicker">PRECISION AUDIO ENGINEERING</div>
+					<h1>SOUND<br />UNBOUND.</h1>
+					<p>
+						Every nuance, every frequency, perfectly captured. Scroll down to explore
+						the layers of perfection.
+					</p>
+				</div>
+				<div class="scroll-indicator">
+					<span>SCROLL TO DISASSEMBLE</span>
+					<div class="line"></div>
+				</div>
+			</section>
 
-        <section class="feature feature-left">
-            <div class="text-block">
-                <span class="step-num">01</span>
-                <h2>Acoustic Chamber</h2>
-                <p>Milled from a single block of aerospace-grade aluminum, the chassis guarantees zero structural resonance. Pure tone, absolute silence.</p>
-            </div>
-        </section>
-        
-        <section class="spacer"></section>
+			<!-- Spacer allows for more scrolling which advances the canvas animation -->
+			<section class="spacer"></section>
 
-        <section class="feature feature-right">
-            <div class="text-block">
-                <span class="step-num">02</span>
-                <h2>Dual-Diaphragm Capsule</h2>
-                <p>A true gold-sputtered condenser core captures every nuance. Engineered for breathtaking dynamic range and transient response.</p>
-            </div>
-        </section>
-        
-        <section class="spacer"></section>
+			<section class="feature feature-left">
+				<div class="text-block">
+					<span class="step-num">01</span>
+					<h2>Acoustic Chamber</h2>
+					<p>
+						Milled from a single block of aerospace-grade aluminum, the chassis
+						guarantees zero structural resonance. Pure tone, absolute silence.
+					</p>
+				</div>
+			</section>
 
-        <section class="feature feature-left">
-            <div class="text-block">
-                <span class="step-num">03</span>
-                <h2>Magnetic Shielding</h2>
-                <p>An advanced Faraday cage isolates the signal path from electromagnetic interference. Your audio remains completely uncompromised.</p>
-            </div>
-        </section>
-        
-        <section class="spacer"></section>
+			<section class="spacer"></section>
 
-        <section class="cta" id="preorder">
-            <div class="cta-content text-block">
-                <h2>HEAR THE DIFFERENCE</h2>
-                <p>Pre-order the next generation of studio recording.</p>
-                <button class="buy-btn">
-                    <span class="btn-text">RESERVE YOURS</span>
-                    <span class="btn-bg"></span>
-                </button>
-            </div>
-        </section>
-    </main>
+			<section class="feature feature-right">
+				<div class="text-block">
+					<span class="step-num">02</span>
+					<h2>Dual-Diaphragm Capsule</h2>
+					<p>
+						A true gold-sputtered condenser core captures every nuance. Engineered for
+						breathtaking dynamic range and transient response.
+					</p>
+				</div>
+			</section>
 
-    <script src="main.js"></script>
-</body>
+			<section class="spacer"></section>
+
+			<section class="feature feature-left">
+				<div class="text-block">
+					<span class="step-num">03</span>
+					<h2>Magnetic Shielding</h2>
+					<p>
+						An advanced Faraday cage isolates the signal path from electromagnetic
+						interference. Your audio remains completely uncompromised.
+					</p>
+				</div>
+			</section>
+
+			<section class="spacer"></section>
+
+			<section class="cta" id="preorder">
+				<div class="cta-content text-block">
+					<h2>HEAR THE DIFFERENCE</h2>
+					<p>Pre-order the next generation of studio recording.</p>
+					<button class="buy-btn">
+						<span class="btn-text">RESERVE YOURS</span>
+						<span class="btn-bg"></span>
+					</button>
+				</div>
+			</section>
+		</main>
+
+		<script src="main.js"></script>
+	</body>
 </html>
